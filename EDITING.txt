@@ -1,0 +1,23 @@
+Written by Craig Warner
+
+MAKING CHANGES:
+===============
+
+To make changes to the provided image, you will need access to the Dockerfile. The Docker documentation will be very useful if you are not familiar with the syntax. Essential software provided in the Dockerfile consists of:
+
+	supervisor 
+	openssh-server 
+	pwgen 
+	sudo 
+	vim-tiny 
+        net-tools 
+	x11vnc 
+	xvfb 
+	lxde 
+        gtk2-engines-murrine 
+	ttf-ubuntu-font-family 
+        nginx
+
+as provided within the original file.
+
+In order to add/remove software from the container image, simply include it in the "RUN apt-get install -y..." command or write in your own identical command with only the extra software. If you would like to add any of the software included that is not found in the APT package index, you will have to put the commands into the Dockerfile using the appropriate commands.

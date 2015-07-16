@@ -1,0 +1,43 @@
+Written by Craig Warner
+
+Summer Labor Project Sources:
+
+https://github.com/fcwu/docker-ubuntu-vnc-desktop/graphs/contributors
+
+https://docs.docker.com/
+
+http://nand2tetris.org/
+
+https://github.com/kanaka/noVNC
+
+
+Collaborators:
+
+Mark Ross
+Austin Farmer
+
+
+Supervisors:
+
+Dr. Scott Heggen
+Dr. Matt Jadud
+
+
+Software:
+
+As in APT package index:
+	supervisor openssh-server pwgen sudo vim-tiny
+	net-tools x11vnc xvfb default-jre lxde 
+	gtk2-engines-murrine ttf-ubuntu-font-family 
+	nginx python-pip python-dev build-essential 
+	unzip software-properties-common 
+	xterm firefox vim gedit git apache
+
+
+Exploratory:
+
+CentOS, CoreOS, Ubuntu, Linux Mint, Windows 7
+Chef, Puppet, Ansible
+Amazon AWS 
+
+
